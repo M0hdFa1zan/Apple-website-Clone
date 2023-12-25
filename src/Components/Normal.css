@@ -1,0 +1,53 @@
+body {
+    overflow-x: hidden;
+}
+
+.normal {
+    background-color: white;
+    display: flex;
+    height: 700px;
+}
+
+.nordetail {
+    margin-top: 50px;
+    color: black;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    z-index: 2;
+}
+
+#twoline {
+    font-size: 27px;
+    margin: 5px;
+}
+
+.lear {
+    display: flex;
+}
+
+#blu {
+    color: #268cec;
+    margin: 10px;
+}
+
+.bluenor img {
+    height: 480px;
+}
+
+@media screen and (max-width: 992px) {
+    .nordetail {
+        text-align: center;
+    }
+
+    .normal {
+        height: 450px;
+    }
+
+    .bluenor img {
+        height: 200px;
+    }
+
+}

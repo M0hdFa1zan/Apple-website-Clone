@@ -1,0 +1,56 @@
+.proad {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    background-color: black;
+    height: 700px;
+}
+
+.prodetail {
+    font-size: larger;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: white;
+    z-index: 2;
+}
+
+#twolines {
+    font-size: 27px;
+    margin: 5px;
+}
+
+.learn {
+    display: flex;
+}
+
+#blue {
+    color: #268cec;
+    margin: 10px;
+}
+
+.blackpro img {
+    height: 390px;
+}
+
+@media screen and (max-width: 992px) {
+    .prodetail {
+        text-align: center;
+    }
+
+    .blackpro {
+        display: none;
+    }
+
+    .mediapro img {
+        height: 450px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .mediapro {
+        display: none;
+    }
+}

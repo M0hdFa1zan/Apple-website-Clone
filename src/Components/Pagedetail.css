@@ -1,0 +1,28 @@
+.para {
+    font-size: 14px;
+    color: #fffef2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 11px 34px;
+    background-color: #252525;
+    font-family: "Suisse", sans-serif;
+}
+
+.para1,
+.para2,
+.para3,
+.para4 {
+    margin-bottom: 20px;
+}
+
+.para1 {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .para {
+        width: auto;
+    }
+
+}

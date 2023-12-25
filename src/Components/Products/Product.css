@@ -1,0 +1,55 @@
+.single {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+
+.proimg {
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url("https://www.apple.com/v/iphone-15-pro/c/images/meta/iphone-15-pro_overview__f8jz7aagka2q_og.png");
+}
+
+.sindetail {
+    font-size: larger;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    z-index: 2;
+}
+
+#sinlines {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    /* margin: 5px; */
+}
+
+.sinlearn {
+    display: flex;
+}
+
+#sinblue {
+    color: #268cec;
+    margin: 10px;
+}
+
+.sinimg img {
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    .single {
+        height: 400px;
+        width: auto;
+    }
+
+    .sindetail {
+        text-align: center;
+    }
+
+}

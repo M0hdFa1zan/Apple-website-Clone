@@ -1,0 +1,58 @@
+.iwatch {
+    display: flex;
+}
+
+.content {
+    margin-top: 490px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+}
+
+#watchlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#watchname {
+    margin-top: 10px;
+}
+
+#series {
+    margin-top: 7px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#twoline {
+    font-size: 25px;
+    margin-top: 12px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 8px;
+}
+
+#watchbutton button {
+    margin: 12px;
+    padding: 13px 22px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 992px) {
+    .iwatch {
+        display: none;
+    }
+
+}

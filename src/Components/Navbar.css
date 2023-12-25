@@ -1,0 +1,53 @@
+.navb {
+    height: 44px;
+    display: flex;
+    font-size: 12px;
+    background-color: #181818;
+    color: rgba(255, 255, 255, .8);
+    justify-content: center;
+}
+
+.innav {
+    align-items: center;
+    width: 55%;
+    justify-content: space-between;
+    display: flex;
+    background-color: #181818;
+}
+
+.aplogo {
+    color: white;
+}
+
+#equal {
+    display: none;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 992px) {
+    #navitem {
+        display: none;
+    }
+
+    .aplogo {
+        position: absolute;
+        left: 20px
+    }
+
+    #searchico {
+        position: absolute;
+        right: 100px;
+    }
+
+    #cartico {
+        position: absolute;
+        right: 57px;
+    }
+
+    #equal {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+}
